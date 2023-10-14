@@ -1,0 +1,29 @@
+.show-btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: black;
+}
+
+.btn {
+  width: 80px;
+  height: 80px;
+  font-size: 28px;
+  border-radius: 10px;
+  /* background-color: #0a052c; */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.special-btn
+{
+  width: 80px;
+  height: 55px;
+  font-size: 28px;
+  border-radius: 10px;
+  /* background-color: #0a052c; */
+  color: white;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,50 @@
+.show-btn {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  .display {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+  .input,.value
+  {
+  padding: 10px;
+  text-align: right;
+  background-color: transparent;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+  .btn{
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    background: none;
+    user-select: none;
+  }
+  
+  .special-btn
+  {
+    background: none;
+  }
+  .input::placeholder,
+  .value::placeholder {
+  color: white;
+}
+  @media (max-width: 800px) {
+    .btn:active {
+      transform: scale(0.9);
+    }
+  }
